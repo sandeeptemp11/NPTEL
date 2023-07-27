@@ -21,8 +21,10 @@ int main(){
     int t;
     cin >> t;
 
-    while(t--){
+    int i = 1;
+    while(i <= t){
         int ans = solve();
-        cout << "Case #" << t+1 << ": " << ans << "\n";
+        cout << "Case #" << i << ": " << ans << "\n";
+        i++;
     }
 }
